@@ -22,7 +22,7 @@ int main(){
 
     //logic
     sum = s1+s2+s3+s4+s5+s6;
-    per = (float) sum/6; //explicit type casting 
+    per = (float) sum/6; //explicit type casting into float
 
     printf("Total Score: %d",sum);
     printf("\nPercentage: %0.2f%%",per); //%% is for % sign
